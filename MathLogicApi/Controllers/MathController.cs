@@ -14,11 +14,14 @@ namespace MathApi.Controllers
     {
 
         private readonly ILogger<MathController> _logger;
+        private readonly MathLogic _MathLogic;
 
         public MathController(ILogger<MathController> logger)
         {
             _logger = logger;
+            _MathLogic = new MathLogic();
         }
+        
 
 
         /// <summary>
@@ -30,12 +33,21 @@ namespace MathApi.Controllers
         [HttpPost]
         public int Add(int value1, int value2)
         {
-
-            MathLogic add = new MathLogic();
-
-            return add.Add(value1, value2);
+            return _MathLogic.Add(value1, value2);
         }
 
+
+        /// <summary>
+        /// Subtract function
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public int Subtract(int value1, int value2)
+        {
+            return _MathLogic.Subtract(value1, value2);
+        }
 
     }
 }

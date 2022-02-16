@@ -36,5 +36,28 @@ namespace MathTest
             Assert.AreEqual<int>(expected, (int)actual);
 
         }
+
+
+        /// <summary>
+        /// Test Subtract logic
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        [TestMethod]
+        [DataRow(3, 2)]
+        [DataRow(4, 3)]
+        [DataRow(6, 5)]
+        public void Subtract(int value1, int value2)
+        {
+
+            // expected Result
+            var expected = 1;
+
+            // Actual result
+            var actual = _MathLogic.Subtract(value1, value2);
+
+            Assert.AreEqual<int>(expected, (int)actual);
+
+        }
     }
 }

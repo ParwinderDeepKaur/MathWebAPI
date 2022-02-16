@@ -7,3 +7,4 @@ C:\Users\DELL\source\repos\MathApi\MathLibrary\obj\Debug\netcoreapp3.1\MathLibra
 C:\Users\DELL\source\repos\MathApi\MathLibrary\obj\Debug\netcoreapp3.1\MathLibrary.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\MathApi\MathLibrary\obj\Debug\netcoreapp3.1\MathLibrary.dll
 C:\Users\DELL\source\repos\MathApi\MathLibrary\obj\Debug\netcoreapp3.1\MathLibrary.pdb
+C:\Users\DELL\source\repos\MathApi\MathLibrary\obj\Debug\netcoreapp3.1\MathLibrary.csproj.AssemblyReference.cache
