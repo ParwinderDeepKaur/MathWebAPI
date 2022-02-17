@@ -49,7 +49,17 @@ namespace MathApi.Controllers
             return _MathLogic.Subtract(value1, value2);
         }
 
-        
+        /// <summary>
+        /// Multiply function
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public int Multiply(int value1, int value2)
+        {
+            return _MathLogic.Multiply(value1, value2);
+        }
 
     }
 }
