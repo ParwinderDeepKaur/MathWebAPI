@@ -59,5 +59,28 @@ namespace MathTest
             Assert.AreEqual<int>(expected, (int)actual);
 
         }
+
+        /// <summary>
+        /// Test Multiply logic
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        [TestMethod]
+        [DataRow(5, 4)]
+        [DataRow(4, 5)]
+        [DataRow(2, 10)]
+        [DataRow(10, 2)]
+        public void Multiply(int value1, int value2)
+        {
+
+            // expected Result
+            var expected = 20;
+
+            // Actual result
+            var actual = _MathLogic.Multiply(value1, value2);
+
+            Assert.AreEqual<int>(expected, (int)actual);
+
+        }
     }
 }
