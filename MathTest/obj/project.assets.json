@@ -6137,11 +6137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MathApi\\MathTest\\MathTest.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathTest\\MathTest.csproj",
       "projectName": "MathTest",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\MathApi\\MathTest\\MathTest.csproj",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathTest\\MathTest.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\MathApi\\MathTest\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6164,8 +6164,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\source\\repos\\MathApi\\MathLibrary\\MathLibrary.csproj": {
-              "projectPath": "C:\\Users\\DELL\\source\\repos\\MathApi\\MathLibrary\\MathLibrary.csproj"
+            "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathLibrary\\MathLibrary.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathLibrary\\MathLibrary.csproj"
             }
           }
         }

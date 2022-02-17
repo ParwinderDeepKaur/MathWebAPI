@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cdropeXmvSBXveAigA1k0SWjySVCQavD70mw5ih4/v17NyM+hzgkRh5UPrqLGSb95429D6NdbpoK53TMxj4AAQ==",
+  "dgSpecHash": "bfhYzONhEYi43/OMQIcRVKTQ+nxDINLD/jUrO9g/Bi1IB9fZLHc0xYWPPbsn5ecSG11ePg2+pPjLpw7gz1ipog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\MathApi\\MathTest\\MathTest.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\MathAPI\\MathTest\\MathTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
