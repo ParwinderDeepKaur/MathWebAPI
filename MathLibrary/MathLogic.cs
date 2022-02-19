@@ -39,5 +39,16 @@ namespace MathLibrary
             return value1* value2;
         }
 
+        /// <summary>
+        /// Division function
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns></returns>
+        public int Division(int value1, int value2)
+        {
+            return value1/value2;
+        }
+
     }
 }
