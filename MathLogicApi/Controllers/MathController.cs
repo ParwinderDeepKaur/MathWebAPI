@@ -15,11 +15,14 @@ namespace MathApi.Controllers
 
         private readonly ILogger<MathController> _logger;
         private readonly MathLogic _MathLogic;
+        int result;
+
 
         public MathController(ILogger<MathController> logger)
         {
             _logger = logger;
             _MathLogic = new MathLogic();
+            result = 0;
         }
         
 
@@ -68,9 +71,19 @@ namespace MathApi.Controllers
         /// <param name="value2"></param>
         /// <returns></returns>
         [HttpPost]
-        public int Division(int value1, int value2)
+        public object Division(int value1, int value2)
         {
-            return _MathLogic.Division(value1, value2);
+            
+            try
+            {
+                result = _MathLogic.Division(value1, value2);
+            }
+            catch (DivideByZeroException e)
+            {
+                return BadRequest(error: e.Message);
+            }
+
+            return _MathLogic.Division(value1, value2).ToString();
         }
 
 
