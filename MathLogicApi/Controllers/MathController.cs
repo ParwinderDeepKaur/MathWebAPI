@@ -61,7 +61,19 @@ namespace MathApi.Controllers
             return _MathLogic.Multiply(value1, value2);
         }
 
-       
+        /// <summary>
+        /// Division Function
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public int Division(int value1, int value2)
+        {
+            return _MathLogic.Division(value1, value2);
+        }
+
+
 
     }
 }
