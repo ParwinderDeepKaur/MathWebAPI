@@ -82,5 +82,29 @@ namespace MathTest
             Assert.AreEqual<int>(expected, (int)actual);
 
         }
+
+        /// <summary>
+        /// Test Division logic
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        [TestMethod]
+        [DataRow(8, 4)]
+        [DataRow(10, 5)]
+        [DataRow(20, 10)]
+        [DataRow(4, 2)]
+        public void Division(int value1, int value2)
+        {
+
+            // expected Result
+            var expected = 2;
+
+            // Actual result
+            var actual = _MathLogic.Division(value1, value2);
+
+            Assert.AreEqual<int>(expected, (int)actual);
+
+        }
+
     }
 }

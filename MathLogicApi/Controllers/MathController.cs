@@ -61,5 +61,7 @@ namespace MathApi.Controllers
             return _MathLogic.Multiply(value1, value2);
         }
 
+       
+
     }
 }
